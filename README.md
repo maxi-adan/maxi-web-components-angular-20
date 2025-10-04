@@ -193,20 +193,6 @@ We welcome contributions! Please see our contributing guidelines for more inform
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🆘 Support
-
-If you encounter any issues or have questions, please:
-- Check the [documentation](https://maxi-components.com/docs)
-- Open an issue on GitHub
-- Contact our support team
-
-## 🔗 Links
-
-- [Documentation](https://maxi-components.com/docs)
-- [Live Demo](https://maxi-components.com/demo)
-- [GitHub Repository](https://github.com/maxi-components/angular)
-- [NPM Package](https://www.npmjs.com/package/maxi-angular-components)
-
 ---
 
 <div align="center">
