@@ -1,0 +1,16 @@
+<ms-radio
+id="yesId"
+name="decision"
+value="yes"
+[checked]="selectedValue === 'yes'"
+label="Yes"
+(radioChange)="handleRadioChange($event)"
+></ms-radio>
+<ms-radio
+id="noId"
+name="decision"
+value="no"
+[checked]="selectedValue === 'no'"
+label="No"
+(radioChange)="handleRadioChange($event)"
+></ms-radio>

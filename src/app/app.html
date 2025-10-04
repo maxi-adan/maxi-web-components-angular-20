@@ -1,0 +1,342 @@
+<!-- Header Banner -->
+<header class="header-banner">
+  <div class="header-content">
+    <!-- Logo Section -->
+    <div class="logo-section">
+      <img src="assets/logo.png" alt="Maxi Logo" class="logo-image" />
+    </div>
+
+    <!-- Main Title Section -->
+    <div class="title-section">
+      <h1 class="main-title">Maxi Web Components</h1>
+      <p class="subtitle">Angular Components Library</p>
+    </div>
+
+    <!-- Angular Badge -->
+    <div class="angular-badge">
+      <div class="angular-icon">
+        <img
+          src="assets/angular.png"
+          alt="Angular Icon"
+          class="angular-icon-image"
+        />
+      </div>
+      <div class="badge-text">
+        <span class="version-text">Angular 18, 19 & 20</span>
+        <span class="compatible-text">Compatible</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Description -->
+  <div class="description">
+    <p>
+      These components are designed to work seamlessly with Angular
+      applications, providing a comprehensive set of UI elements for modern web
+      development.
+    </p>
+  </div>
+</header>
+
+<main class="main-content">
+  <!-- Input Components Section -->
+  <section class="component-section">
+    <h2 class="section-title">Input Components</h2>
+    <div class="input-grid">
+      <!-- Input Field Card -->
+      <div class="input-card">
+        <h3 class="input-title">Input Field</h3>
+        <p class="input-description">
+          Text input with validation and styling options
+        </p>
+        <div class="input-separator"></div>
+        <div class="input-demo">
+          <InputField />
+        </div>
+      </div>
+
+      <!-- Input Number Card -->
+      <div class="input-card">
+        <h3 class="input-title">Input Number</h3>
+        <p class="input-description">
+          Numeric input with increment/decrement controls
+        </p>
+        <div class="input-separator"></div>
+        <div class="input-demo">
+          <InputNumber />
+        </div>
+      </div>
+
+      <!-- Input Switch Card -->
+      <div class="input-card">
+        <h3 class="input-title">Input Switch</h3>
+        <p class="input-description">Toggle switch for boolean values</p>
+        <div class="input-separator"></div>
+        <div class="input-demo">
+          <InputSwitch />
+        </div>
+      </div>
+
+      <!-- Input Radio Card -->
+      <div class="input-card">
+        <h3 class="input-title">Input Radio</h3>
+        <p class="input-description">Radio button for single selection</p>
+        <div class="input-separator"></div>
+        <div class="input-demo">
+          <AppRadio />
+        </div>
+      </div>
+
+      <!-- Checkbox Card -->
+      <div class="input-card">
+        <h3 class="input-title">Checkbox</h3>
+        <p class="input-description">Checkbox for multiple selections</p>
+        <div class="input-separator"></div>
+        <div class="input-demo">
+          <AppCheckbox />
+        </div>
+      </div>
+
+      <!-- Autocomplete Card -->
+      <div class="input-card">
+        <h3 class="input-title">Autocomplete</h3>
+        <p class="input-description">Input with suggestions and filtering</p>
+        <div class="input-separator"></div>
+        <div class="input-demo">
+          <Autocomplete />
+        </div>
+      </div>
+
+      <!-- Dropdown Card -->
+      <div class="input-card">
+        <h3 class="input-title">Dropdown</h3>
+        <p class="input-description">
+          Select dropdown with search functionality
+        </p>
+        <div class="input-separator"></div>
+        <div class="input-demo">
+          <AppDropdown />
+        </div>
+      </div>
+
+      <!-- Multi Select Card -->
+      <div class="input-card">
+        <h3 class="input-title">Multi Select</h3>
+        <p class="input-description">Multiple selection dropdown with tags</p>
+        <div class="input-separator"></div>
+        <div class="input-demo">
+          <MultiSelect />
+        </div>
+      </div>
+
+      <!-- Calendar Card -->
+      <div class="input-card">
+        <h3 class="input-title">Calendar</h3>
+        <p class="input-description">Date picker with calendar interface</p>
+        <div class="input-separator"></div>
+        <div class="input-demo">
+          <AppCalendar />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Navigation Components Section -->
+  <section class="component-section">
+    <h2 class="section-title">Navigation Components</h2>
+    <div class="navigation-grid">
+      <!-- Tabs Section -->
+      <div class="navigation-item tabs-section">
+        <h3 class="nav-title">Tabs</h3>
+        <p class="nav-subtitle">Tabbed interface for content organization</p>
+        <div class="nav-separator"></div>
+        <div class="nav-demo">
+          <AppTabs />
+        </div>
+      </div>
+
+      <!-- Sidebar Section -->
+      <div class="navigation-item sidebar-section">
+        <h3 class="nav-title">Sidebar</h3>
+        <p class="nav-subtitle">Collapsible navigation sidebar</p>
+        <div class="nav-separator"></div>
+        <div class="nav-demo">
+          <Sidebar />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Paginator Section -->
+  <section class="component-section">
+    <h2 class="section-title">Paginator</h2>
+    <p class="section-subtitle">Pagination controls for data navigation</p>
+    <div class="table-separator"></div>
+    <div class="paginator-demo">
+      <Paginator />
+    </div>
+  </section>
+
+  <!-- Action Components Section -->
+  <section class="component-section">
+    <h2 class="section-title">Action Components</h2>
+    <div class="action-grid">
+      <!-- Buttons Section -->
+      <div class="action-item buttons-section">
+        <h3 class="action-title">Buttons</h3>
+        <p class="action-subtitle">
+          Interactive buttons with multiple variants and icons
+        </p>
+        <div class="action-separator"></div>
+
+        <AppButton />
+      </div>
+
+      <!-- Chips Section -->
+      <div class="action-item chips-section">
+        <h3 class="action-title">Chips</h3>
+        <p class="action-subtitle">
+          Small tags for labels and selections, Currently only valid value is ,
+          to create a new item when comma key is pressed.
+        </p>
+        <div class="action-separator"></div>
+        <div class="action-demo">
+          <Chips />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Display Components Section -->
+  <section class="component-section">
+    <h2 class="section-title">Display Components</h2>
+    <div class="display-grid">
+      <!-- Card Component -->
+      <div class="display-item card-section">
+        <h3 class="display-title">Card</h3>
+        <p class="display-subtitle">
+          Content container with header, body, and footer
+        </p>
+        <div class="display-separator"></div>
+        <div class="display-demo">
+          <AppCard />
+        </div>
+      </div>
+
+      <!-- Badge Component -->
+      <div class="display-item badge-section">
+        <h3 class="display-title">Badge</h3>
+        <p class="display-subtitle">Small status indicators and labels</p>
+        <div class="display-separator"></div>
+        <div class="display-demo">
+          <Badge />
+        </div>
+      </div>
+
+      <!-- Timeline Component -->
+      <div class="display-item timeline-section">
+        <h3 class="display-title">Timeline</h3>
+        <p class="display-subtitle">
+          Vertical timeline for events and progress
+        </p>
+        <div class="display-separator"></div>
+        <div class="display-demo">
+          <Timeline />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Data Table Section -->
+  <section class="component-section">
+    <h2 class="section-title">Data Table</h2>
+    <p class="section-subtitle">
+      Advanced table with sorting, filtering, and pagination
+    </p>
+    <div class="table-separator"></div>
+    <div class="table-demo">
+      <AppTable />
+    </div>
+  </section>
+
+  <!-- Feedback Components Section -->
+  <section class="component-section">
+    <h2 class="section-title">Feedback Components</h2>
+    <div class="feedback-grid">
+      <!-- Notification Component -->
+      <div class="feedback-item notification-section">
+        <h3 class="feedback-title">Notification</h3>
+        <p class="feedback-subtitle">
+          Toast notifications for user feedback - Click on elements to see them
+          in action
+        </p>
+        <div class="feedback-separator"></div>
+        <div class="feedback-demo">
+          <Notifications />
+        </div>
+      </div>
+
+      <!-- Tooltip Component -->
+      <div class="feedback-item tooltip-section">
+        <h3 class="feedback-title">Tooltip</h3>
+        <p class="feedback-subtitle">
+          Hover tooltips for additional information
+        </p>
+        <div class="feedback-separator"></div>
+        <div class="feedback-demo">
+          <Tooltip />
+        </div>
+      </div>
+
+      <!-- Dialog Component -->
+      <div class="feedback-item dialog-section">
+        <h3 class="feedback-title">Dialog</h3>
+        <p class="feedback-subtitle">
+          Modal dialogs for forms and confirmations
+        </p>
+        <div class="feedback-separator"></div>
+        <div class="feedback-demo">
+          <AppDialog />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- State Components Section -->
+  <section class="component-section">
+    <h2 class="section-title">State Components</h2>
+    <div class="state-grid">
+      <!-- Preload Component -->
+      <div class="state-item preload-section">
+        <h3 class="state-title">Preload</h3>
+        <p class="state-subtitle">Loading overlay for page transitions</p>
+        <div class="state-separator"></div>
+        <div class="state-demo">
+          <Preload />
+        </div>
+      </div>
+
+      <!-- Skeleton Component -->
+      <div class="state-item skeleton-section">
+        <h3 class="state-title">Skeleton</h3>
+        <p class="state-subtitle">Placeholder content while loading</p>
+        <div class="state-separator"></div>
+        <div class="state-demo">
+          <Skeleton />
+        </div>
+      </div>
+
+      <!-- Spinner Component -->
+      <div class="state-item spinner-section">
+        <h3 class="state-title">Spinner</h3>
+        <p class="state-subtitle">Animated loading spinner</p>
+        <div class="state-separator"></div>
+        <div class="state-demo">
+          <Spinner />
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<router-outlet />

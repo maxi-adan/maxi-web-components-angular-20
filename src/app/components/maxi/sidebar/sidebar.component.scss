@@ -1,0 +1,58 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+ms-sidebar {
+  ::ng-deep [slot="content"] {
+    padding: 2rem;
+    margin-left: 0.5rem;
+  }
+
+  ::ng-deep .sidebar-content {
+    padding: 2rem;
+    margin-left: 0.5rem;
+  }
+
+  ::ng-deep .sidebar-header {
+    padding: 1.5rem 2rem 1rem 2rem;
+    border-bottom: 1px solid #e9ecef;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+  }
+
+  ::ng-deep .sidebar-body {
+    padding: 0 2rem 1rem 2rem;
+    margin-left: 0.5rem;
+  }
+
+  ::ng-deep .sidebar-footer {
+    padding: 1rem 2rem 2rem 2rem;
+    border-top: 1px solid #e9ecef;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+  }
+
+  ::ng-deep h2 {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2c3e50;
+  }
+
+  ::ng-deep p {
+    margin: 0 0 1.5rem 0;
+    color: #6c757d;
+    line-height: 1.5;
+  }
+
+  ::ng-deep ms-button {
+    display: inline-block;
+  }
+
+  /* Aplicar margen directamente al div del slot content */
+  ::ng-deep div[slot="content"] {
+    margin-left: 0.5rem !important;
+  }
+}

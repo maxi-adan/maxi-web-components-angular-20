@@ -1,0 +1,25 @@
+<ms-button label="Open dialog" variant="outline-primary" (clickEvent)="toogleDialog()"></ms-button>
+<ms-dialog
+  styleComponent="width:30rem"
+  [visible]="visibleModal"
+  (hide)="handleHideModal()"
+  show-footer="true"
+>
+  <div slot="header">
+    <div style="display: flex; align-items: center; gap: 0.5rem">
+      <img
+        width="44"
+        src="https://static.vecteezy.com/system/resources/thumbnails/001/993/889/small_2x/beautiful-latin-woman-avatar-character-icon-free-vector.jpg"
+      />
+      <span>Dialog</span>
+    </div>
+  </div>
+  <p>
+    This is a pure HTML and CSS dialog box built with Stencil. You can
+    use the slot to include custom content.
+  </p>
+
+  <div slot="footer">
+    <ms-button label="Close" (clickEvent)="toogleDialog()" />
+  </div>
+</ms-dialog>

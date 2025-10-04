@@ -1,0 +1,20 @@
+<ms-button
+  label="Show"
+  variant="secondary"
+  (clickEvent)="openSidebarContent()"
+></ms-button>
+<ms-sidebar
+  [content]="true"
+  [visible]="sidebarContent"
+  (hide)="closeSidebarContent($event)"
+>
+  <div slot="content">
+    <h2>Custom Header</h2>
+    <p>Custom Content</p>
+    <ms-button
+      label="Close"
+      (clickEvent)="closeSidebarContent($event)"
+      variant="success"
+    />
+  </div>
+</ms-sidebar>

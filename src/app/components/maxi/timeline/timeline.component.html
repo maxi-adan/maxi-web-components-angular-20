@@ -1,0 +1,11 @@
+<ms-timeline [events]="events">
+    <ng-container *ngFor="let item of events; let i = index">
+      <div [attr.slot]="'event-' + i">
+        <p className="ms-timeline-content-date">{{ item.date }}</p>
+        <p className="ms-timeline-content-status">
+          <b>Order status:</b>
+          <ms-badge [value]="item.status" [severity]="item.severity" />
+        </p>
+      </div>
+    </ng-container>
+  </ms-timeline>

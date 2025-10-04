@@ -1,0 +1,17 @@
+<ms-table
+  [data]="data"
+  [columns]="columns"
+  size="small"
+  paginator="true"
+  selection-row="true"
+  expandable-row="true"
+  data-key="id"
+  rowsPerPage="5"
+  show-footer="true"
+  [totalRecords]="data.length"
+  (rowClick)="handleRowClick($event)"
+  (paginatorChange)="handlePageChange($event)"
+  (sort)="handleSort($event)"
+  (selection)="handleSelection($event)"
+  (expand)="handleExpand($event)"
+  [nestedTableContent]="nestedInfo"></ms-table>
