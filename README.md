@@ -44,22 +44,57 @@ npm install maxi-angular-components
    npm install maxi-angular-components
    ```
 
-2. **Import the module** in your Angular application:
+2. **Import components** in your Angular application (Angular 20 standalone components):
    ```typescript
-   import { MaxiAngularComponentsModule } from 'maxi-angular-components';
+   import { Component } from '@angular/core';
+   import { MsButton, MsInputField } from 'maxi-angular-components';
    
-   @NgModule({
-     imports: [MaxiAngularComponentsModule],
-     // ...
+   @Component({
+     selector: 'app-example',
+     standalone: true,
+     imports: [MsButton, MsInputField],
+     template: `
+       <ms-button>Click me!</ms-button>
+       <ms-input-field placeholder="Enter text"></ms-input-field>
+     `
    })
-   export class AppModule { }
+   export class ExampleComponent { }
    ```
 
 3. **Use components** in your templates:
    ```html
-   <maxi-button>Click me!</maxi-button>
-   <maxi-input-field placeholder="Enter text"></maxi-input-field>
+   <ms-button>Click me!</ms-button>
+   <ms-input-field placeholder="Enter text"></ms-input-field>
    ```
+
+## 🎯 Button Component Example
+
+The Button component is one of the core action components in the Maxi Angular Components library. Here's how to use it:
+
+```typescript
+import { Component } from '@angular/core';
+import { MsButton } from 'maxi-angular-components';
+
+@Component({
+  selector: 'app-button-example',
+  standalone: true,
+  imports: [MsButton],
+  template: `
+    <ms-button>Primary Button</ms-button>
+    <ms-button variant="secondary">Secondary Button</ms-button>
+    <ms-button variant="outline">Outline Button</ms-button>
+  `
+})
+export class ButtonExampleComponent { }
+```
+
+### Button Component Features:
+- **Multiple Variants**: Primary, secondary, outline, and more
+- **Size Options**: Small, medium, and large sizes
+- **Icon Support**: Add icons to buttons
+- **Disabled State**: Disable buttons when needed
+- **Loading State**: Show loading indicators
+- **Accessibility**: Full keyboard navigation and screen reader support
 
 ## 🧩 Components
 
