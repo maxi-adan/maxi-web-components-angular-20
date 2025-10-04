@@ -7,6 +7,10 @@
 <div align="center">
   <h3>Angular Components Library</h3>
   <p>A comprehensive collection of reusable UI components for Angular applications</p>
+   ![Angular](https://img.shields.io/badge/Angular-20.3.3-red?style=flat-square&logo=angular)
+  ![TypeScript](https://img.shields.io/badge/TypeScript-5.9.3-blue?style=flat-square&logo=typescript)
+  ![Node](https://img.shields.io/badge/Node-20.19.0-green?style=flat-square&logo=node.js)
+  ![License](https://img.shields.io/badge/License-Private-orange?style=flat-square)
 </div>
 
 ---
@@ -98,8 +102,9 @@ npm install maxi-angular-components
 This project serves as a testing and demonstration environment for the Maxi Angular Components library.
 
 ### Prerequisites
-- Node.js (v20 or higher)
-- Angular CLI (v20.3.3 or higher)
+- Node.js (v20.19.0 or higher)
+- Angular CLI (v20.3.4 or higher)
+- TypeScript (v5.9.3 or higher)
 - npm or yarn
 
 ### Setup
