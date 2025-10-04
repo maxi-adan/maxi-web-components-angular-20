@@ -7,10 +7,12 @@
 <div align="center">
   <h3>Angular Components Library</h3>
   <p>A comprehensive collection of reusable UI components for Angular applications</p>
-   [Angular](https://img.shields.io/badge/Angular-20.3.3-red?style=flat-square&logo=angular)
-  [TypeScript](https://img.shields.io/badge/TypeScript-5.9.3-blue?style=flat-square&logo=typescript)
-  [Node](https://img.shields.io/badge/Node-20.19.0-green?style=flat-square&logo=node.js)
-  [License](https://img.shields.io/badge/License-Private-orange?style=flat-square)
+   
+  ![Angular](https://img.shields.io/badge/Angular-20.3.3-red?style=flat-square&logo=angular)
+  ![TypeScript](https://img.shields.io/badge/TypeScript-5.9.3-blue?style=flat-square&logo=typescript)
+  ![Node](https://img.shields.io/badge/Node-20.19.0-green?style=flat-square&logo=node.js)
+  ![License](https://img.shields.io/badge/License-Private-orange?style=flat-square)
+
 </div>
 
 ---
