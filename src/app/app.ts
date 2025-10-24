@@ -24,7 +24,8 @@ import { PaginatorComponent } from './components/maxi/paginator/paginator.compon
 import { CalendarComponent } from './components/maxi/calendar/calendar.component';
 import { TableComponent } from './components/maxi/table/table.component';
 import { TimelineComponent } from './components/maxi/timeline/timeline.component';
-
+import { AccordionComponent } from './components/maxi/accordion/accordion.component';
+import { CascadeMenuComponent } from './components/maxi/cascade-menu/cascade-menu.component';
 @Component({
   selector: 'app-root',
   imports: [
@@ -53,6 +54,8 @@ import { TimelineComponent } from './components/maxi/timeline/timeline.component
     CalendarComponent,
     TableComponent,
     TimelineComponent,
+    AccordionComponent,
+    CascadeMenuComponent,
   ],
   templateUrl: './app.html',
   styleUrl: './app.scss',
