@@ -311,6 +311,16 @@
   min-height: 60px;
 }
 
+/* Cascade Menu al 100% del ancho */
+.cascade-menu-section .nav-demo {
+  width: 100%;
+}
+
+.cascade-menu-section .nav-demo * {
+  width: 100%;
+  max-width: 100%;
+}
+
 /* Paginator Section */
 .paginator-demo {
   display: flex;
@@ -443,6 +453,22 @@
   justify-content: center;
   align-items: center;
   min-height: 120px;
+}
+
+/* Accordion al 100% del ancho */
+.accordion-section {
+  grid-column: 1 / -1;
+  background: white;
+}
+
+.accordion-section .display-demo {
+  width: 100%;
+  display: block;
+}
+
+.accordion-section .display-demo * {
+  width: 100%;
+  max-width: 100%;
 }
 
 /* Data Table Section */

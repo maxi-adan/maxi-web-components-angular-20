@@ -1,0 +1,32 @@
+<ms-accordion [activeIndex]="activeIndex" [multiple]="multiple"
+  (tabChange)="handleTabChange($event)"
+  (tabOpen)="handleTabOpen($event)"
+  (tabClose)="handleTabClose($event)">
+    <ng-container *ngFor="let item of accordionData; let i = index">
+      <!-- Header simple (string) -->
+      <div *ngIf="isStringHeader(item.header)" [attr.slot]="'header-' + i">
+        <strong>{{ item.header }}</strong>
+      </div>
+      
+      <!-- Header complejo (con avatar, texto y badge) -->
+      <div *ngIf="!isStringHeader(item.header)" [attr.slot]="'header-' + i" style="display: flex; align-items: center; gap: 10px;">
+        <img
+          width="24"
+          height="24"
+          alt="avatar"
+          [src]="item.header.avatar"
+          style="border-radius: 50%;"
+        />
+        <span class="accordion-custom-header-content-text">{{ item.header.text }}</span>
+        <span class="accordion-custom-badge" 
+              style="background-color: #4CAF50; color: white; padding: 2px 8px; border-radius: 12px; font-size: 12px; font-weight: bold;margin-left: auto;">
+          {{ item.header.badge }}
+        </span>
+      </div>
+      
+      <!-- Contenido -->
+      <div [attr.slot]="'content-' + i">
+        {{ item.content }}
+      </div>
+    </ng-container>
+  </ms-accordion>
