@@ -24,7 +24,6 @@ Maxi Web Components is a modern Angular component library designed to provide de
 ## ✨ Features
 
 - **Modern Angular Support**: Compatible with Angular 18, 19, and 20
-- **Comprehensive Component Set**: 20+ pre-built components
 - **Consistent Design System**: Unified styling and behavior
 - **TypeScript Support**: Full type safety and IntelliSense
 - **Responsive Design**: Mobile-first approach
@@ -112,6 +111,7 @@ export class ButtonExampleComponent { }
 ### Navigation Components
 - **Tabs** - Tabbed interface for content organization
 - **Sidebar** - Collapsible navigation sidebar
+- **Cascade Menu** - Hierarchical dropdown menu with multiple levels
 - **Paginator** - Pagination controls for data navigation
 
 ### Action Components
@@ -121,6 +121,7 @@ export class ButtonExampleComponent { }
 ### Display Components
 - **Card** - Content container with header, body, and footer
 - **Badge** - Small status indicators and labels
+- **Accordion** - Collapsible content sections for organized information display
 - **Timeline** - Vertical timeline for events and progress
 - **Data Table** - Advanced table with sorting, filtering, and pagination
 
