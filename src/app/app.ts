@@ -26,6 +26,7 @@ import { TableComponent } from './components/maxi/table/table.component';
 import { TimelineComponent } from './components/maxi/timeline/timeline.component';
 import { AccordionComponent } from './components/maxi/accordion/accordion.component';
 import { CascadeMenuComponent } from './components/maxi/cascade-menu/cascade-menu.component';
+import { InputOtpComponent } from './components/maxi/input-otp/input-otp.component';
 @Component({
   selector: 'app-root',
   imports: [
@@ -56,6 +57,7 @@ import { CascadeMenuComponent } from './components/maxi/cascade-menu/cascade-men
     TimelineComponent,
     AccordionComponent,
     CascadeMenuComponent,
+    InputOtpComponent,
   ],
   templateUrl: './app.html',
   styleUrl: './app.scss',
