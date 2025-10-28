@@ -243,6 +243,10 @@
   min-height: 40px;
 }
 
+.input-demo.otp {
+  justify-content: center;
+}
+
 /* Input Field, Input Number, Autocomplete, Dropdown, Multi Select y Calendar al 100% */
 .input-card:nth-child(1) .input-demo,
 .input-card:nth-child(2) .input-demo,
@@ -282,7 +286,6 @@
 .navigation-item:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 
 .nav-title {
   font-size: 1.2rem;
@@ -349,7 +352,6 @@
 .action-item:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 
 .action-title {
   font-size: 1.2rem;
@@ -425,7 +427,6 @@
 .display-item:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 
 .display-title {
   font-size: 1.2rem;
@@ -515,7 +516,6 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-
 .feedback-title {
   font-size: 1.2rem;
   font-weight: 600;
@@ -563,7 +563,6 @@
 .state-item:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 
 .state-title {
   font-size: 1.2rem;
