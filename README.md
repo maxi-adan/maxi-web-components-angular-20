@@ -113,6 +113,7 @@ export class ButtonExampleComponent { }
 - **Tabs** - Tabbed interface for content organization
 - **Sidebar** - Collapsible navigation sidebar
 - **Cascade Menu** - Hierarchical dropdown menu with multiple levels
+- **Menubar** - Horizontal navigation bar with dropdown menus and submenus
 - **Paginator** - Pagination controls for data navigation
 
 ### Action Components
