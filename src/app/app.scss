@@ -314,7 +314,6 @@
   min-height: 60px;
 }
 
-/* Cascade Menu al 100% del ancho */
 .cascade-menu-section .nav-demo {
   width: 100%;
 }
@@ -324,7 +323,19 @@
   max-width: 100%;
 }
 
-/* Paginator Section */
+.menubar-section {
+  grid-column: 1 / -1;
+}
+
+.menubar-section .nav-demo {
+  width: 100%;
+}
+
+.menubar-section .nav-demo * {
+  width: 100%;
+  max-width: 100%;
+}
+
 .paginator-demo {
   display: flex;
   justify-content: center;
@@ -333,7 +344,6 @@
   padding: 1rem 0;
 }
 
-/* Action Components Grid */
 .action-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -408,7 +418,6 @@
   margin-top: 0.75rem;
 }
 
-/* Display Components Grid */
 .display-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -456,7 +465,6 @@
   min-height: 120px;
 }
 
-/* Accordion al 100% del ancho */
 .accordion-section {
   grid-column: 1 / -1;
   background: white;
@@ -472,7 +480,6 @@
   max-width: 100%;
 }
 
-/* Data Table Section */
 .section-subtitle {
   font-size: 0.9rem;
   color: #6c757d;
@@ -496,7 +503,6 @@
   overflow-x: auto;
 }
 
-/* Feedback Components Grid */
 .feedback-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -544,7 +550,6 @@
   min-height: 100px;
 }
 
-/* State Components Grid */
 .state-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -592,7 +597,6 @@
   min-height: 100px;
 }
 
-/* Skeleton al 100% de ancho */
 .skeleton-section .state-demo {
   width: 100%;
 }
@@ -602,7 +606,6 @@
   max-width: 100%;
 }
 
-/* Responsive adjustments for main content */
 @media (max-width: 768px) {
   .main-content {
     padding: 1rem 0.5rem;
