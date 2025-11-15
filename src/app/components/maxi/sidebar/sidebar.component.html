@@ -1,20 +1,14 @@
-<ms-button
-  label="Show"
-  variant="secondary"
-  (clickEvent)="openSidebarContent()"
-></ms-button>
-<ms-sidebar
-  [content]="true"
-  [visible]="sidebarContent"
-  (hide)="closeSidebarContent($event)"
->
+<ms-button label="Show" variant="secondary" (clickEvent)="openSidebarContent()"></ms-button>
+<ms-sidebar [content]="true" [visible]="sidebarContent" (hide)="closeSidebarContent($event)">
   <div slot="content">
     <h2>Custom Header</h2>
-    <p>Custom Content</p>
-    <ms-button
-      label="Close"
-      (clickEvent)="closeSidebarContent($event)"
-      variant="success"
-    />
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate quae quibusdam consectetur
+      at. Aut inventore, quo dolorum suscipit velit illo repellendus placeat cupiditate? Corporis
+      dolore quam accusantium iure, in nobis eaque autem blanditiis amet nulla accusamus quae natus
+      hic perferendis atque. Ipsum dolore repellat error provident delectus consectetur fugit ullam
+      aspernatur deserunt, blanditiis aliquid dolor atque nihil!
+    </p>
+    <ms-button label="Close" (clickEvent)="closeSidebarContent($event)" variant="success" />
   </div>
 </ms-sidebar>

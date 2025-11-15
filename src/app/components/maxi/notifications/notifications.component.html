@@ -1,7 +1,29 @@
-<ms-badge style="cursor: pointer;" value="Information" severity="info" (click)="handleClick('info')" />
-<ms-badge style="cursor: pointer;" value="Success" severity="success" (click)="handleClick('success')" />
-<ms-badge style="cursor: pointer;" value="Warning" severity="warning" (click)="handleClick('warning')" />
-<ms-badge style="cursor: pointer;" value="Alert" severity="danger" (click)="handleClick('alert')" />
+<div style="display: flex; gap: 10px">
+  <ms-badge
+    style="cursor: pointer"
+    value="Information"
+    severity="info"
+    (click)="handleClick('info')"
+  />
+  <ms-badge
+    style="cursor: pointer"
+    value="Success"
+    severity="success"
+    (click)="handleClick('success')"
+  />
+  <ms-badge
+    style="cursor: pointer"
+    value="Warning"
+    severity="warning"
+    (click)="handleClick('warning')"
+  />
+  <ms-badge
+    style="cursor: pointer"
+    value="Alert"
+    severity="danger"
+    (click)="handleClick('alert')"
+  />
+</div>
 
 <ms-notification
   [visible]="visible"
