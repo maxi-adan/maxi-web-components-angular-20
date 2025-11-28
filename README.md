@@ -124,6 +124,7 @@ export class ButtonExampleComponent { }
 - **Card** - Content container with header, body, and footer
 - **Badge** - Small status indicators and labels
 - **Accordion** - Collapsible content sections for organized information display
+- **Carousel** - Interactive carousel for displaying multiple items with navigation
 - **Timeline** - Vertical timeline for events and progress
 - **Data Table** - Advanced table with sorting, filtering, and pagination
 

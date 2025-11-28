@@ -1,0 +1,29 @@
+<ms-carousel
+  [value]="carouselItems"
+  [numVisible]="controlledConfig.numVisible"
+  [numScroll]="controlledConfig.numScroll"
+  [infinite]="controlledConfig.infinite"
+  [autoplay]="controlledConfig.autoplay"
+  [showNavigators]="controlledConfig.showNavigators"
+  [showIndicators]="controlledConfig.showIndicators"
+  [responsiveOptions]="responsiveOptions"
+>
+  <div
+    *ngFor="let product of carouselItems; let i = index"
+    [attr.slot]="'item-carousel-' + i"
+    class="product-card"
+  >
+    <span *ngIf="product.badge" class="product-badge">{{ product.badge }}</span>
+    <div class="product-image" [innerHTML]="getSanitizedSvg(product.svg)"></div>
+    <h3 class="product-title">{{ product.title }}</h3>
+    <p class="product-description">{{ product.description }}</p>
+    <div class="product-footer">
+      <span class="product-price">{{ product.price }}</span>
+      <div class="product-rating">
+        {{ getFilledStars(product.rating) }}
+        {{ getEmptyStars(product.rating) }}
+      </div>
+    </div>
+    <button class="product-button">Learn More</button>
+  </div>
+</ms-carousel>

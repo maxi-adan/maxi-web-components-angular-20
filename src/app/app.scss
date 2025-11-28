@@ -879,6 +879,21 @@
   }
 }
 
+.carousel-section {
+  grid-column: 1 / -1;
+  background: white;
+}
+
+.carousel-section .display-demo {
+  width: 100%;
+  display: block;
+}
+
+.carousel-section .display-demo * {
+  width: 100%;
+  max-width: 100%;
+}
+
 /* Responsive Design */
 
 /* Large tablets and small desktops */
