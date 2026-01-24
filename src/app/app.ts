@@ -29,6 +29,13 @@ import { CascadeMenuComponent } from './components/maxi/cascade-menu/cascade-men
 import { InputOtpComponent } from './components/maxi/input-otp/input-otp.component';
 import { MenubarComponent } from './components/maxi/menubar/menubar.component';
 import { CarouselComponent } from './components/maxi/carousel/carousel.component';
+import { BreadcrumbComponent } from './components/maxi/breadcrumb/breadcrumb.component';
+import { StepsComponent } from './components/maxi/steps/steps.component';
+import { FieldsetMaxiComponent } from './components/maxi/fieldset/fieldset.component';
+import { MessagesComponent } from './components/maxi/messages/messages.component';
+import { ProgressBarComponent } from './components/maxi/progress-bar/progress-bar.component';
+import { ControlNumberComponent } from './components/maxi/control-number/control-number.component';
+
 @Component({
   selector: 'app-root',
   imports: [
@@ -62,6 +69,12 @@ import { CarouselComponent } from './components/maxi/carousel/carousel.component
     InputOtpComponent,
     MenubarComponent,
     CarouselComponent,
+    BreadcrumbComponent,
+    StepsComponent,
+    FieldsetMaxiComponent,
+    MessagesComponent,
+    ProgressBarComponent,
+    ControlNumberComponent,
   ],
   templateUrl: './app.html',
   styleUrl: './app.scss',

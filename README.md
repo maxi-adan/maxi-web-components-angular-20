@@ -108,6 +108,7 @@ export class ButtonExampleComponent { }
 - **Multi Select** - Multiple selection dropdown with tags
 - **Calendar** - Date picker with calendar interface
 - **InputOTP** - One-Time Password verification
+- **Control Number** - Numeric control input for managing numeric values
 
 ### Navigation Components
 - **Tabs** - Tabbed interface for content organization
@@ -115,6 +116,8 @@ export class ButtonExampleComponent { }
 - **Cascade Menu** - Hierarchical dropdown menu with multiple levels
 - **Menubar** - Horizontal navigation bar with dropdown menus and submenus
 - **Paginator** - Pagination controls for data navigation
+- **Breadcrumb**: Navigation breadcrumb trail showing current page location
+- **Steps**: Step-by-step navigation component - Click on each step to navigate
 
 ### Action Components
 - **Buttons** - Interactive buttons with multiple variants and icons
@@ -123,6 +126,7 @@ export class ButtonExampleComponent { }
 ### Display Components
 - **Card** - Content container with header, body, and footer
 - **Badge** - Small status indicators and labels
+- **Fieldset**: Grouped form fields with collapsible legend for organizing related inputs
 - **Accordion** - Collapsible content sections for organized information display
 - **Carousel** - Interactive carousel for displaying multiple items with navigation
 - **Timeline** - Vertical timeline for events and progress
@@ -132,11 +136,13 @@ export class ButtonExampleComponent { }
 - **Notification** - Toast notifications for user feedback
 - **Tooltip** - Hover tooltips for additional information
 - **Dialog** - Modal dialogs for forms and confirmations
+- **Message**: Contextual messages for displaying different types of feedback with multiple variants
 
 ### State Components
 - **Preload** - Loading overlay for page transitions
 - **Skeleton** - Placeholder content while loading
 - **Spinner** - Animated loading spinner
+- **ProgressBar**: Progress indicator for showing completion status or loading state
 
 ## 🛠️ Development
 
