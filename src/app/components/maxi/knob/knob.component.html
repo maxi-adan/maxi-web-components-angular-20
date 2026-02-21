@@ -1,0 +1,15 @@
+<div class="knob-container">
+    <ms-knob 
+        [value]="25" 
+        [size]="60" 
+        valueColor="#10B981" 
+        rangeColor="#D1FAE5" 
+        textColor="#065F46"
+        (changeValue)="handleChangeValue($event)">
+    </ms-knob>
+    <ms-knob 
+        [value]="60" 
+        [size]="100" 
+          (changeValue)="handleChangeValue($event)">
+    </ms-knob>
+</div>

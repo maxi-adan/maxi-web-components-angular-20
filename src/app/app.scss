@@ -272,9 +272,14 @@
 .input-card:nth-child(7) .input-demo *,
 .input-card:nth-child(8) .input-demo *,
 .input-card:nth-child(9) .input-demo *,
-.input-card:nth-child(11) .input-demo * {
+.input-card:nth-child(11) .input-demo *,
+.text-editor-section .input-demo * {
   width: 100%;
   max-width: 100%;
+}
+
+.text-editor-section {
+  grid-column: 1 / -1;
 }
 
 /* Navigation Components Grid */
@@ -372,6 +377,19 @@
   max-width: 100%;
 }
 
+.popover-section {
+  grid-column: 1 / -1;
+}
+
+.popover-section .nav-demo {
+  width: 100%;
+}
+
+.popover-section .nav-demo * {
+  width: 100%;
+  max-width: 100%;
+}
+
 .paginator-demo {
   display: flex;
   justify-content: center;
@@ -382,7 +400,7 @@
 
 .action-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 2rem;
   align-items: start;
 }
@@ -524,6 +542,48 @@
 }
 
 .fieldset-section .display-demo * {
+  width: 100%;
+  max-width: 100%;
+}
+
+.meter-group-section {
+  grid-column: 1 / -1;
+}
+
+.meter-group-section .display-demo {
+  width: 100%;
+  display: block;
+}
+
+.meter-group-section .display-demo * {
+  width: 100%;
+  max-width: 100%;
+}
+
+.image-section {
+  grid-column: 1 / -1;
+}
+
+.image-section .display-demo {
+  width: 100%;
+  display: block;
+}
+
+.image-section .display-demo * {
+  width: 100%;
+  max-width: 100%;
+}
+
+.timeline-section {
+  grid-column: 1 / -1;
+}
+
+.timeline-section .display-demo {
+  width: 100%;
+  display: block;
+}
+
+.timeline-section .display-demo * {
   width: 100%;
   max-width: 100%;
 }

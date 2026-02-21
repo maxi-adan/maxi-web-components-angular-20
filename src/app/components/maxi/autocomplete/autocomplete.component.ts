@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 import { MsAutocomplete } from 'maxi-angular-components';
 
 const basicSuggestions = [
@@ -34,7 +34,8 @@ const basicSuggestions = [
   standalone: true,
   templateUrl: './autocomplete.component.html',
   styleUrls: ['./autocomplete.component.scss'],
-  imports: [MsAutocomplete]
+  imports: [MsAutocomplete],
+  encapsulation: ViewEncapsulation.None
 })
 export class AutocompleteComponent {
 
