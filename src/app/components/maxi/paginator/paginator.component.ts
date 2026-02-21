@@ -6,8 +6,8 @@ import { MsPaginator } from 'maxi-angular-components';
   standalone: true,
   templateUrl: './paginator.component.html',
   styleUrls: ['./paginator.component.scss'],
-  imports: [MsPaginator],
   encapsulation: ViewEncapsulation.None,
+  imports: [MsPaginator]
 })
 export class PaginatorComponent {
 

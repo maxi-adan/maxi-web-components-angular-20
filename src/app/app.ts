@@ -35,7 +35,13 @@ import { FieldsetMaxiComponent } from './components/maxi/fieldset/fieldset.compo
 import { MessagesComponent } from './components/maxi/messages/messages.component';
 import { ProgressBarComponent } from './components/maxi/progress-bar/progress-bar.component';
 import { ControlNumberComponent } from './components/maxi/control-number/control-number.component';
-
+import { TextEditorComponent } from './components/maxi/text-editor/text-editor.component';
+import { KnobComponent } from './components/maxi/knob/knob.component';
+import { InputPasswordComponent } from './components/maxi/input-password/input-password.component';
+import { SelectButtonComponent } from './components/maxi/select-button/select-button.component';
+import { ImageComponent } from './components/maxi/image/image.component';
+import { PopoverComponent } from './components/maxi/popover/popover.component';
+import { MeterGroupComponent } from './components/maxi/meter-group/meter-group.component';
 @Component({
   selector: 'app-root',
   imports: [
@@ -75,6 +81,13 @@ import { ControlNumberComponent } from './components/maxi/control-number/control
     MessagesComponent,
     ProgressBarComponent,
     ControlNumberComponent,
+    TextEditorComponent,
+    KnobComponent,
+    InputPasswordComponent,
+    SelectButtonComponent,
+    ImageComponent,
+    PopoverComponent,
+    MeterGroupComponent,
   ],
   templateUrl: './app.html',
   styleUrl: './app.scss',

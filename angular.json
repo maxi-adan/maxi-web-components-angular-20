@@ -31,7 +31,7 @@
             ],
             "styles": [
               "src/styles.scss",
-              "maxi-web-components/global.css"
+              "maxi-web-components/global-zeclio.css"
             ]
           },
           "configurations": {
