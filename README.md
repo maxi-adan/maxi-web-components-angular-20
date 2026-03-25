@@ -142,6 +142,8 @@ export class ButtonExampleComponent {}
 - [x] Timeline - Vertical timeline for events and progress
 - [x] Data Table - Advanced table with sorting, filtering, and pagination
 - [x] Image - Enhanced image component with loading and preview features
+- [x] Chart - Data visualization component supporting bar, line, pie, doughnut, radar, bubble, polar, scatter, and mixed chart types with animation support
+- [x] Icon - SVG icon component with a built-in icon library
 
 ### Feedback Components
 
