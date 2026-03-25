@@ -1,0 +1,127 @@
+<div class="chart-wrapper">
+
+  <!-- Chart Types -->
+  <div class="chart-section">
+    <h4 class="section-title">Chart Types</h4>
+    <div class="chart-grid">
+
+      <div class="chart-card">
+        <p class="card-title">Bar</p>
+        <p class="card-desc">Data distribution by category</p>
+        <ms-chart type="bar" variant="primary" [data]="barData" height="280px"></ms-chart>
+      </div>
+
+      <div class="chart-card">
+        <p class="card-title">Line</p>
+        <p class="card-desc">Multiple datasets comparison over time</p>
+        <ms-chart type="line" variant="info" [data]="lineData" height="280px"></ms-chart>
+      </div>
+
+      <div class="chart-card">
+        <p class="card-title">Pie</p>
+        <p class="card-desc">Proportional distribution with custom colors</p>
+        <ms-chart type="pie" variant="success" [data]="pieData" height="280px"></ms-chart>
+      </div>
+
+      <div class="chart-card">
+        <p class="card-title">Doughnut</p>
+        <p class="card-desc">Circular chart with a hollow center</p>
+        <ms-chart type="doughnut" variant="warning" [data]="doughnutData" height="280px"></ms-chart>
+      </div>
+
+      <div class="chart-card">
+        <p class="card-title">Radar</p>
+        <p class="card-desc">Multivariate data across multiple axes</p>
+        <ms-chart type="radar" variant="secondary" [data]="radarData" height="280px"></ms-chart>
+      </div>
+
+      <div class="chart-card">
+        <p class="card-title">Bubble</p>
+        <p class="card-desc">Three-dimensional data (x, y, radius)</p>
+        <ms-chart type="bubble" variant="primary" [data]="bubbleData" [options]="bubbleOptions" height="280px"></ms-chart>
+      </div>
+
+      <div class="chart-card">
+        <p class="card-title">Polar Area</p>
+        <p class="card-desc">Equal-angle segments with value-proportional radii</p>
+        <ms-chart type="polarArea" variant="mixed" [data]="polarData" [options]="polarAreaOptions" height="280px"></ms-chart>
+      </div>
+
+      <div class="chart-card">
+        <p class="card-title">Scatter</p>
+        <p class="card-desc">Correlation between two numeric variables</p>
+        <ms-chart type="scatter" variant="info" [data]="scatterData" [options]="scatterOptions" height="280px"></ms-chart>
+      </div>
+
+      <div class="chart-card">
+        <p class="card-title">Stacked Bar</p>
+        <p class="card-desc">Cumulative totals per category segment</p>
+        <ms-chart type="bar" variant="mixed" [data]="stackedBarData" [options]="stackedBarOptions" height="280px"></ms-chart>
+      </div>
+
+      <div class="chart-card">
+        <p class="card-title">Stacked Line</p>
+        <p class="card-desc">Filled area chart with stacked regions</p>
+        <ms-chart type="line" variant="primary" [data]="stackedLineData" [options]="stackedLineOptions" height="280px"></ms-chart>
+      </div>
+
+      <div class="chart-card">
+        <p class="card-title">Multi Series Pie</p>
+        <p class="card-desc">Concentric rings for multi-year comparison</p>
+        <ms-chart type="pie" variant="mixed" [data]="multiPieData" [options]="multiPieOptions" height="280px"></ms-chart>
+      </div>
+
+      <div class="chart-card">
+        <p class="card-title">Dynamic Update</p>
+        <p class="card-desc">Reactive data binding — charts update automatically when data changes</p>
+        <ms-chart type="bar" variant="success" [data]="dynamicData" height="280px"></ms-chart>
+      </div>
+
+      <div class="chart-card chart-card--full">
+        <p class="card-title">Mixed Chart</p>
+        <p class="card-desc">Combines bar and line datasets in a single chart — each dataset declares its own type</p>
+        <ms-chart type="bar" variant="mixed" [data]="mixedChartData" [options]="mixedChartOptions" height="280px"></ms-chart>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Animations -->
+  <div class="chart-section">
+    <h4 class="section-title">Animations</h4>
+    <div class="chart-grid">
+
+      <div class="chart-card">
+        <p class="card-title">Progressive Line</p>
+        <p class="card-desc">Infinite loop — tension animates from 1 to 0 continuously</p>
+        <ms-chart type="line" variant="info" [data]="progressiveLineData" [options]="progressiveLineOptions" height="280px"></ms-chart>
+      </div>
+
+      <div class="chart-card">
+        <p class="card-title">Delay Animation</p>
+        <p class="card-desc">Staggered loop — bars rise from zero with sequential delay per position</p>
+        <ms-chart type="bar" variant="mixed" [data]="delayAnimData" [options]="delayAnimOptions" height="280px"></ms-chart>
+      </div>
+
+      <div class="chart-card">
+        <p class="card-title">Drop Animation</p>
+        <p class="card-desc">Continuous loop — bars rise from zero with elastic easing (easeInOutElastic)</p>
+        <ms-chart type="bar" variant="primary" [data]="dropAnimData" [options]="dropAnimOptions" height="280px"></ms-chart>
+      </div>
+
+      <div class="chart-card">
+        <p class="card-title">Loop Animation</p>
+        <p class="card-desc">Continuous loop — bars animate from max value with sine easing</p>
+        <ms-chart type="bar" variant="success" [data]="loopAnimData" [options]="loopAnimOptions" height="280px"></ms-chart>
+      </div>
+
+      <div class="chart-card">
+        <p class="card-title">Progressive Line with Easing</p>
+        <p class="card-desc">Continuous loop — points draw sequentially with easeOutQuart per index</p>
+        <ms-chart type="line" variant="secondary" [data]="progEasingData" [options]="progEasingOptions" height="280px"></ms-chart>
+      </div>
+
+    </div>
+  </div>
+
+</div>
